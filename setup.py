@@ -21,6 +21,6 @@ setup(
         'anthropic==0.21.4',
         'pillow==10.2.0',
     ],
-    name="RedLightGreenLight",
+    name="red-light-green-light",
     version="0.1.0",
 )

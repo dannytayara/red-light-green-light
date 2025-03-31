@@ -13,14 +13,14 @@ from mss import mss
 from PIL import Image
 from anthropic import Anthropic
 
-class RedLightGreenLightApp(rumps.App):
+class RedGreenLightApp(rumps.App):
     def __init__(self):
-        super(RedLightGreenLightApp, self).__init__("🔴", quit_button=None)
+        super(RedGreenLightApp, self).__init__("🔴", quit_button=None)
         
         # App constants
-        self.APP_NAME = "RedLightGreenLight"
+        self.APP_NAME = "red-light-green-light"
         self.API_KEY_SERVICE = "anthropic-api"
-        self.API_KEY_ACCOUNT = "redlightgreenlight"
+        self.API_KEY_ACCOUNT = "red-light-green-light"
         
         # Configuration
         self.api_key = self.load_api_key()
@@ -265,9 +265,9 @@ class RedLightGreenLightApp(rumps.App):
         rumps.quit_application()
 
 if __name__ == "__main__":
-    print("Starting RedLightGreenLight app...")
+    print("Starting red-light-green-light app...")
     try:
-        RedLightGreenLightApp().run()
+        RedGreenLightApp().run()
     except Exception as e:
         print(f"Error starting app: {e}")
         import traceback

@@ -1,1 +1,1 @@
-# RedLightGreenLight package
+# red-light-green-light package

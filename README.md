@@ -1,4 +1,4 @@
-# RedLightGreenLight
+# red-light-green-light
 
 A simple macOS menu bar app that helps you stay focused by monitoring your screen and providing visual feedback based on whether you're on task.
 
