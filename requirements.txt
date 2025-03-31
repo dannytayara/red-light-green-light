@@ -4,3 +4,4 @@ anthropic==0.49.0
 pillow==10.2.0
 keyring==24.3.0
 PyQt6==6.5.0
+py2app==0.28.6

@@ -15,4 +15,5 @@ build/
 .DS_Store
 
 # Local config files
-.config/
+.config/venv_build/
+*.dmg
