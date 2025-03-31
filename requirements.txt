@@ -1,0 +1,6 @@
+rumps==0.4.0
+mss==9.0.1
+anthropic==0.49.0
+pillow==10.2.0
+keyring==24.3.0
+PyQt6==6.5.0
